@@ -1,0 +1,111 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: forestgreen;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #bbd8a0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+}
+
+/*Top page*/
+/* Header */
+div.header {
+	background-color: #bbd8a0;
+	padding: 40px 0;
+}
+
+/* Navigation */
+div.nav {
+	background-color: forestgreen;
+}
+
+div.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+div.nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 93%;
+}
+
+div.nav ul li a:link,
+div.nav ul li a:visited {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+}
+
+/* Section Inner */
+div.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/*end of Top page*/
+
+/* Footer */
+div.footer {
+	background-color: #bbd8a0;
+	color: #FFF;
+	padding: 15px 0;
+	text-align: center;
+}
+
+img {
+    height: 500px;
+    padding-left: 570px;
+    margin-top: -500px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #bbd8a0;
+}
+
+a:hover {
+    font-weight: bold;
+}
